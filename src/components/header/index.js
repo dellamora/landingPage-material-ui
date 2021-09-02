@@ -7,12 +7,13 @@ export default function Header() {
 
   return (
     <AppBar className={classes.appBar} elevation={0}>
-      <Toolbar>
-        <h1>titulo here</h1>
+      <Toolbar className={classes.appbarWrapper}>
+        <h1 className={classes.appTitle}>titulo here</h1>
         <IconButton>
           <SortIcon className={classes.btnIcon} />
         </IconButton>
       </Toolbar>
+      <h1 className={classes.appMiddleTitle}>titulo ssere</h1>{" "}
     </AppBar>
   );
 }

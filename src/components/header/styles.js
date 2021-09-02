@@ -8,7 +8,14 @@ const useStyles = makeStyles((theme) => ({
     color: "#fff",
     fontSize: "1rem",
   },
-  
+  appTitle: {
+    flexGrow: "1",
+  },
+  appbarWrapper: {
+    width: "80%",
+    margin: "0 auto",
+  },
+  appMiddleTitle: {},
 }));
 
 export default useStyles;
